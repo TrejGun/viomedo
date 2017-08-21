@@ -1,0 +1,37 @@
+{
+  "plugins": [
+    "lodash",
+    "transform-class-properties",
+    "transform-decorators-legacy",
+    "transform-function-bind",
+    "transform-object-rest-spread",
+    [
+      "transform-require-ignore",
+      {
+        "extensions": [
+          ".less",
+          ".sass"
+        ]
+      }
+    ]
+  ],
+  "presets": [
+    "react",
+    [
+      "env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "espower",
+        "istanbul"
+      ]
+    }
+  }
+}

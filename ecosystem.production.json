@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "Viomedo",
+      "script": "build/server/server.js",
+      "exec_mode": "fork",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "3000"
+      }
+    }
+  ]
+}

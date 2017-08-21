@@ -1,0 +1,72 @@
+{
+  "menu": {
+    "switchLanguage": "Switch Language",
+    "language": {
+      "en": "English",
+      "ru": "Russian"
+    }
+  },
+  "errors": {
+    "page-not-found": "Page Not Found"
+  },
+  "text": {
+    "form": "Application form"
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female"
+  },
+  "form": {
+    "fields": {
+      "gender": "Gender",
+      "firstname": "First name",
+      "lastname": "Last name",
+      "email": "Email",
+      "phone": "Phone",
+      "age": "Age",
+      "zip": "ZIP",
+      "termsAccepted": "Accept terms"
+    },
+    "buttons": {
+      "send": "Send"
+    }
+  },
+  "models": {
+    "gender": {
+      "notEmpty": "Field is required",
+      "isIn": "Should be male or female"
+    },
+    "firstname": {
+      "notEmpty": "Field is required",
+      "isAlpha": "Should contain only A-Z chars"
+    },
+    "lastname": {
+      "notEmpty": "Field is required",
+      "isAlpha": "Should contain only A-Z chars"
+    },
+    "email": {
+      "notEmpty": "Field is required",
+      "isEmail": "Should look like email"
+    },
+    "phone": {
+      "notEmpty": "Field is required"
+    },
+    "age": {
+      "notEmpty": "Field is required",
+      "isInt": "Should be an integer",
+      "min": "Should be greater than 1",
+      "max": "Should be less than 99"
+    },
+    "zip": {
+      "notEmpty": "Field is required",
+      "isNumeric": "Should contain only 0-9 chars",
+      "len": "Should be 3 to 5 symbols"
+    },
+    "termsAccepted": {
+      "notEmpty": "Should be checked"
+    }
+  },
+  "alert": {
+    "success": "You have successfully applied"
+  }
+}
